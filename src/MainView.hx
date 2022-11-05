@@ -1,19 +1,19 @@
 package ;
 
-import haxe.ui.containers.VBox;
 import haxe.ui.events.MouseEvent;
+import hx.widgets.Window;
+import haxe.ui.containers.VBox;
 
 @:build(haxe.ui.ComponentBuilder.build("assets/main-view.xml"))
 class MainView extends VBox {
+    
     public function new() {
         super();
-        button1.onClick = function(e) {
-            button1.text = "Thanks!";
-        }
-    }
-    
-    @:bind(button2, MouseEvent.CLICK)
-    private function onMyButton(e:MouseEvent) {
-        button2.text = "Thanks!";
+       
+    }   
+    @:bind(s, MouseEvent.CLICK)
+    function onPress(e:MouseEvent)
+    {
+        trace("hrr");
     }
 }
