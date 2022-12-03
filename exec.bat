@@ -1,1 +1,0 @@
-start "build/hxwidgets/MainS.exe"

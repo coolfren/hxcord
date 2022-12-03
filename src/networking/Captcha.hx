@@ -1,5 +1,9 @@
 package networking;
 
+import sys.net.Host;
+import sys.net.Socket;
+import haxe.net.WebSocketServer;
+
 //this class lets you do captchas, mainly for logging in.
 //TODO: maybe make this a special web widget?
 class Captcha {
