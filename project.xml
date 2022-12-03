@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
     <meta title="hxCord ALPHA v0.0.0" package="" version="0.0.0" company="" />
-    <app main="MainS" file="MainS" path="build/openfl" />
+    <app main="Main" file="Main" path="build/openfl" />
 
     <window background="#FFFFFF" fps="60" />
-    <window width="800" height="600" if="desktop" />
-    <window width="0" height="0" if="html5" />
+    <window width="600" height="300" if="desktop" />
 
     <!-- classpath, haxe libs -->
     <source path="src" />
@@ -15,4 +14,6 @@
 
     <haxelib name="haxeui-core" />
     <haxelib name="haxeui-openfl" />
+
+    <haxelib name="haxe-ws" />
 </project>
