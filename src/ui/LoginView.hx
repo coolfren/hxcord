@@ -3,7 +3,7 @@ package ui;
 import haxe.ui.containers.VBox;
 import haxe.ui.events.MouseEvent;
 
-@:build(haxe.ui.ComponentBuilder.build("assets/main-view.xml"))
+@:build(haxe.ui.ComponentBuilder.build("assets/login-view.xml"))
 class LoginView extends VBox {
     public function new() {
         super();
