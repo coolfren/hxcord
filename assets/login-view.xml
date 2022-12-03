@@ -21,7 +21,7 @@
         <vbox width="90%" height="95%" id="info" horizontalAlign="center" verticalAlign="center">
                 <textfield width="80%" placeholder="Username/Email" id="username" horizontalAlign="center"/>
                 <textfield  width="80%" placeholder="Password" id="password" horizontalAlign="center"/>
-                <button width="80%" id="submit-login" text="Submit Info" horizontalAlign="center"
+                <button width="80%" id="submit-login" text="Submit Info" horizontalAlign="center" />
         </vbox>
     </vbox>
 </vbox>
